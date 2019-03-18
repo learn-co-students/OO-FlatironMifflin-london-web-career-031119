@@ -1,0 +1,13 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+The Office	/Users/manon/Development/code/OO-FlatironMifflin-london-web-career-031119/README.md	/^# The Office$/;"	function	line:1
+Introduction	/Users/manon/Development/code/OO-FlatironMifflin-london-web-career-031119/README.md	/^## Introduction$/;"	function	line:5
+Setup (Code)	/Users/manon/Development/code/OO-FlatironMifflin-london-web-career-031119/README.md	/^## Setup (Code)$/;"	function	line:9
+Domain Modeling	/Users/manon/Development/code/OO-FlatironMifflin-london-web-career-031119/README.md	/^## Domain Modeling$/;"	function	line:17
+Deliverables	/Users/manon/Development/code/OO-FlatironMifflin-london-web-career-031119/README.md	/^## Deliverables$/;"	function	line:26
+Manager	/Users/manon/Development/code/OO-FlatironMifflin-london-web-career-031119/lib/Manager.rb	/^class Manager$/;"	class	line:1
+Employee	/Users/manon/Development/code/OO-FlatironMifflin-london-web-career-031119/lib/Employee.rb	/^class Employee$/;"	class	line:1
