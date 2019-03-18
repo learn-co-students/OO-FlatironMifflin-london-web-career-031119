@@ -4,11 +4,11 @@ class Manager
 
   @@all = []
 
-  def initialize(name, department, age, employees)
+  def initialize(name, department, age)
     @name = name
     @department = department
     @age = age
-    @employees = employees
+    @employees = []
 
     @@all << self
   end
@@ -18,8 +18,8 @@ class Manager
   end
 
   def hire_employee(name, salary)
-    new_employee = Employee.new(name, salary, self)
-    employees << new_employee.name
+    Employee.new(name, salary, self)
+    # @employees << new_employee.name
   end
 
   def self.all_departments
@@ -28,7 +28,8 @@ class Manager
 
   def self.average_age
     total_managers = Manager.all.length
-    Manager.all.collect {|age| age.age }.sum / total_managers
+    result = Manager.all.collect {|age| age.age }.sum / total_managers
+    result.to_f.round(2)
   end
 
 end

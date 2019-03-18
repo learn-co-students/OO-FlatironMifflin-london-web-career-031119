@@ -10,6 +10,8 @@ class Employee
     @manager_name = manager_name
 
     @@all << self
+    manager_name.employees << self
+
   end
 
   def self.all
