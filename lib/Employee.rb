@@ -23,6 +23,15 @@ class Employee
     def self.find_by_department(dept_name)
         Employee.all.find { |employee| employee.manager.department == dept_name }
     end
+
+    def talk
+        puts "hello"
+    end
+
+    def tax_bracket
+        interval = (self.salary - 1000 .. self.salary + 1000)
+        Employee.all.select { |employee| interval.include?(employee.salary) }
+    end
 end
 
 # Employee#name
